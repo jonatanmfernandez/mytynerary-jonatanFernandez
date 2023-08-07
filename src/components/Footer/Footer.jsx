@@ -1,7 +1,7 @@
-import './footer.css'; 
+import Card from 'react-bootstrap/Card';
 
 export default function Footer() {
   return (
-      <div className="footer"> Mytynerary  - 2023</div>
+    <Card.Footer className="text-muted">My Tynerary - 2023</Card.Footer>
   );
 }
