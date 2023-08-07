@@ -1,0 +1,17 @@
+.footer {
+    background-color: rgb(155, 176, 253);
+    font-size: 14px;
+    color: rgb(241, 230, 230);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+  
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      font-size: 14px;
+    }
+  }
