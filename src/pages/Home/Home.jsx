@@ -1,7 +1,16 @@
+import Carousel from "../../components/Carousel/Carousel";
+import Main from "../../loyouts/Main";
+import Hero from "../../components/Hero";
+
 const Home = () => {
   return (
-    <div></div>
-  )
-}
+   
+      <Main>       
+            <Hero />           
+            <Carousel />         
+      </Main>
+    
+  );
+};
 
-export default Home
+export default Home;

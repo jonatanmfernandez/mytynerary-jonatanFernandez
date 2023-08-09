@@ -3,7 +3,7 @@ import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Carousel from "../components/Carousel/Carousel";
 
-export default function Main() {
+const Main = ({ children })  => {
     return (
         <>
          <NavBar />
@@ -14,3 +14,4 @@ export default function Main() {
      )
 }
 
+export default Main
