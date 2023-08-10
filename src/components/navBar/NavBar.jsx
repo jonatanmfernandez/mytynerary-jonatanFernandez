@@ -9,21 +9,21 @@ function NavBar() {
         {href:"",title:"Cities"},
       ]
   return (
-    <Navbar className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home">My tynerary</Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
+      <Navbar className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand href="#home">My tinerary</Navbar.Brand>
+          <Navbar.Toggle />
+          <Navbar.Collapse className="justify-content-end">
             <div className="navbar-nav ms-auto mb-2 mb-lg-0">
-            {data.map((each, key)=><Anchor key={key} href={each.href} title={each.title} />)}
+              {data.map((each, key) => (
+                <Anchor key={key} href={each.href} title={each.title} />
+              ))}
             </div>
-          </Navbar.Text>
-        </Navbar.Collapse>
-      </Container>
-      <Login />
-    </Navbar>
-  );
+          </Navbar.Collapse>
+          <Login />
+        </Container>
+      </Navbar>
+    );
 }
 
 export default NavBar;
