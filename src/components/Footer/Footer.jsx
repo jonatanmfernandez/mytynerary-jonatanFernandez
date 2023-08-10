@@ -1,7 +1,16 @@
-import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 
-export default function Footer() {
+function Footer () {
   return (
-    <Card.Footer className="text-muted">My Tynerary - 2023</Card.Footer>
+    <Container>
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand href="#">My Tinerary</Navbar.Brand>
+        </Container>
+      </Navbar>
+    </Container>
   );
 }
+
+export default Footer;

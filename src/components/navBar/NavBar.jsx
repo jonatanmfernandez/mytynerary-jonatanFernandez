@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Anchor from '../Anchor/Anchor';
 import Login from '../Login/Login';
 
-function TextLinkExample() {
+function NavBar() {
   let data = [
         {href:"",title:"Home"},
         {href:"",title:"Cities"},
@@ -26,4 +26,4 @@ function TextLinkExample() {
   );
 }
 
-export default TextLinkExample;
+export default NavBar;
